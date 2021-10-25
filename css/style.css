@@ -306,16 +306,24 @@ section{
     border-radius: 5rem;
 }
 
+.about .row .progress .bar-1-0 span{
+    width: 75%;
+}
+
 .about .row .progress .bar-1-1 span{
     width: 90%;
 }
 
 .about .row .progress .bar-1-2 span{
-    width: 75%;
+    width: 85%;
 }
 
 .about .row .progress .bar-1-3 span{
     width: 80%;
+}
+
+.about .row .progress .bar-2-0 span{
+    width: 65%;
 }
 
 .about .row .progress .bar-2-1 span{
