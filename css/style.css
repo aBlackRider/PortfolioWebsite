@@ -337,6 +337,10 @@ section{
     width: 50%;
 }
 
+.skills .row .progress .bar-1-6 span{
+    width: 0%;
+}
+
 .skills .row .progress .bar-2-0 span{
     width: 70%;
 }
