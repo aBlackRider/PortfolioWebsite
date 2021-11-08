@@ -96,8 +96,8 @@ section{
     margin:1rem 0;
     border:1rem solid transparent;
     border-radius: 50%;
-    height: 18rem;
-    width: 18rem;
+    height: 15rem;
+    width: 15rem;
     box-shadow: var(--box-shadow);
 }
 
@@ -112,7 +112,7 @@ section{
 }
 
 .header .navbar{
-    padding-top: 1rem;
+    padding-top: .2rem;
 }
 
 .header .navbar a{
@@ -226,6 +226,13 @@ section{
     gap:2rem;
 }
 
+.skills .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 2rem;
+}
+
 .about .row .box-container{
     flex:1 1 40rem;
     display: flex;
@@ -278,11 +285,11 @@ section{
     padding-top: 2rem;
 }
 
-.about .row .progress{
+.skills .row .progress{
     flex:1 1 40rem;
 }
 
-.about .row .progress h3{
+.skills .row .progress h3{
     color:var(--black);
     font-weight: normal;
     font-size: 2rem;
@@ -291,7 +298,7 @@ section{
     justify-content: space-between;
 }
 
-.about .row .progress .bar{
+.skills .row .progress .bar{
     box-shadow: var(--box-shadow);
     border-radius: 5rem;
     height:2rem;
@@ -299,42 +306,62 @@ section{
     margin:1rem 0;
 }
 
-.about .row .progress .bar span{
+.skills .row .progress .bar span{
     display: block;
     height: 100%;
     background: var(--green);
     border-radius: 5rem;
 }
 
-.about .row .progress .bar-1-0 span{
+.skills .row .progress .bar-1-0 span{
     width: 75%;
 }
 
-.about .row .progress .bar-1-1 span{
+.skills .row .progress .bar-1-1 span{
     width: 90%;
 }
 
-.about .row .progress .bar-1-2 span{
+.skills .row .progress .bar-1-2 span{
     width: 85%;
 }
 
-.about .row .progress .bar-1-3 span{
-    width: 80%;
+.skills .row .progress .bar-1-3 span{
+    width: 70%;
 }
 
-.about .row .progress .bar-2-0 span{
-    width: 65%;
+.skills .row .progress .bar-1-4 span{
+    width: 60%;
 }
 
-.about .row .progress .bar-2-1 span{
+.skills .row .progress .bar-1-5 span{
+    width: 50%;
+}
+
+.skills .row .progress .bar-2-0 span{
+    width: 70%;
+}
+
+.skills .row .progress .bar-2-1 span{
     width: 95%;
 }
 
-.about .row .progress .bar-2-2 span{
+.skills .row .progress .bar-2-2 span{
     width: 89%;
 }
 
-.about .row .progress .bar-2-3 span{
+.skills .row .progress .bar-2-3 span{
+    width: 65%;
+}
+
+.skills .row .progress .bar-2-4 span{
+    width: 75%;
+}
+
+.skills .row .progress .bar-2-5 span{
+    width: 70%;
+}
+
+.skills .row .progress .bar-2-6 span{
     width: 65%;
 }
 
