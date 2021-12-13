@@ -472,6 +472,13 @@ section{
     opacity: 1;
 }
 
+.portfolio .box-container .box p{
+    font-size:1.4rem;
+    padding: 0 10px;
+    line-height: 1.8;
+    color:var(--light-color);
+}
+
 .contact form{
     margin:1rem auto;
     max-width: 70rem;
